@@ -37,8 +37,8 @@ jobs:
               run: docker build -t sunnycse10/delivery-service:latest .
 
             - name: Push Docker Image
-              run: Docker push sunnycse10/delivery-service:latest
-              
+              run: docker push sunnycse10/delivery-service:latest
+
 
 
 
